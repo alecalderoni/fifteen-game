@@ -2,17 +2,21 @@
 #include <stdlib.h>
 #include <time.h>
 
+////////////////////////////////////////////////////////////
+
 typedef struct vector {
     int x;
     int y;
 } vector;
+
+////////////////////////////////////////////////////////////
 
 vector init(int matrix[][4]);
 int check(int matrix[][4]);
 void print(int matrix[][4]);
 void play(int matrix[][4], vector* r);
 
-////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
 
 int main() {
     srand48(time(NULL));
@@ -60,6 +64,8 @@ vector init(int matrix[][4]) {
     return temp;
 }
 
+/////////////////////////
+
 int check(int matrix[][4]) {
     
     int w = 1;
@@ -73,6 +79,8 @@ int check(int matrix[][4]) {
 
     return w;
 }
+
+/////////////////////////
 
 void print(int matrix[][4]) {
 
@@ -94,6 +102,8 @@ void print(int matrix[][4]) {
 
     fprintf(stdout, "***************\n");
 }
+
+/////////////////////////
 
 void play(int matrix[][4], vector* r) {
     

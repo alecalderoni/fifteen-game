@@ -37,7 +37,7 @@ This project implements a text-based version of the **15 Puzzle Game** in C.
 ## 🔧 Requirements
 
 - A standard C compiler (e.g., `gcc`, `clang`).
-- Works on Linux, macOS, or Windows (via MinGW/Cygwin).
+- Works on Linux, macOS, or Windows.
 
 ## 🚀 Example Output
 

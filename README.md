@@ -10,7 +10,7 @@ This project implements a text-based version of the **15 Puzzle Game** in C.
 
 ## ▶️ How to Play
 
-1. Compile the program:
+1. Compile the program (e.g. with "gcc"):
    ```bash
    gcc gioco.c -o game
    ```
